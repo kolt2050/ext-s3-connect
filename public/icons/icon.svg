@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="S3 OBS Connect">
+  <defs>
+    <linearGradient id="bg" x1="18" y1="12" x2="108" y2="116" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1f7bd7"/>
+      <stop offset="1" stop-color="#124f9d"/>
+    </linearGradient>
+    <linearGradient id="cloud" x1="36" y1="42" x2="92" y2="82" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#dcecff"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="112" height="112" rx="24" fill="url(#bg)"/>
+  <path
+    d="M45 84h43c10.5 0 19-7.8 19-17.5S98.5 49 88 49h-1.1C83.4 38.4 73.4 31 62 31c-13 0-24 9.5-26.1 22.1C27.6 54.9 21 61.7 21 70c0 7.7 6.3 14 14 14h10z"
+    fill="url(#cloud)"
+  />
+  <path d="M44 65h40" stroke="#1769c2" stroke-width="6" stroke-linecap="round"/>
+  <path d="M44 75h28" stroke="#1769c2" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="91" cy="75" r="6" fill="#1769c2"/>
+  <text
+    x="64"
+    y="107"
+    text-anchor="middle"
+    font-family="Inter, Segoe UI, Arial, sans-serif"
+    font-size="20"
+    font-weight="800"
+    fill="#ffffff"
+    letter-spacing="0"
+  >S3</text>
+</svg>

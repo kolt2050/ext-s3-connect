@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - S3/OBS Connect</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #172033;
+            max-width: 860px;
+            margin: 0 auto;
+            padding: 2rem;
+            background: #f6f7f9;
+        }
+        .container {
+            background: #ffffff;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 12px 30px rgba(20, 31, 49, 0.12);
+        }
+        h1 {
+            color: #10233c;
+            border-bottom: 2px solid #d9dee8;
+            padding-bottom: 0.5rem;
+        }
+        h2 {
+            color: #1769c2;
+            margin-top: 1.5rem;
+        }
+        p {
+            margin-bottom: 1rem;
+        }
+        code {
+            background: #eef2f7;
+            padding: 0.1rem 0.3rem;
+            border-radius: 4px;
+        }
+        .footer {
+            margin-top: 2rem;
+            font-size: 0.9rem;
+            color: #687386;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Privacy Policy</h1>
+        <p><strong>Effective Date:</strong> May 20, 2026</p>
+
+        <p>This Privacy Policy describes how the <strong>S3/OBS Connect</strong> browser extension handles information.</p>
+
+        <h2>1. Data Collection</h2>
+        <p>The extension does not collect, sell, transmit, or share personal information with any project-owned server. There is no account system, backend service, analytics service, advertising service, payment processing, or AI/LLM API integration.</p>
+
+        <h2>2. Local Data Usage and Storage</h2>
+        <p>The extension stores user-entered connection details and local app state in the browser's isolated extension storage using <code>chrome.storage.local</code>. This can include access key IDs, secret access keys, OBS/S3 access paths, bucket names, prefixes, server addresses, inferred regions, connection tab order, current navigation state, local activity logs, and theme preference.</p>
+        <p>This local data is used only to reopen saved connections, connect to user-configured S3-compatible endpoints, browse bucket contents, upload files, create folders, preview supported files, download objects, delete objects, keep local activity history, and preserve the user's interface settings.</p>
+
+        <h2>3. Network Requests</h2>
+        <p>The extension sends storage API requests from the user's browser only to S3-compatible endpoints configured by the user. The endpoint address is provided by the user in the extension.</p>
+
+        <h2>4. Downloads</h2>
+        <p>When the user downloads an object, the extension creates a local browser download for the requested file. Downloaded files are saved by the browser according to the user's browser settings.</p>
+
+        <h2>5. Remote Code</h2>
+        <p>The extension does not load or execute remote code. All JavaScript, user interface code, and bundled libraries are included in the extension package.</p>
+
+        <h2>6. Data Sharing</h2>
+        <p>We do not sell, transfer, or share user data. Connection details and app state remain in local browser extension storage unless the user clears them, removes the extension, or exports data through normal browser or device mechanisms.</p>
+
+        <h2>7. Security Notice</h2>
+        <p>Users should enter only credentials they are authorized to use. Credentials are stored locally by Chrome extension storage on the user's device. Users can remove stored credentials by clearing extension data or uninstalling the extension.</p>
+
+        <h2>8. Changes to This Policy</h2>
+        <p>We may update this Privacy Policy by posting a new version on this page.</p>
+
+        <div class="footer">
+            <p>&copy; 2026 S3/OBS Connect</p>
+        </div>
+    </div>
+</body>
+</html>
