@@ -32,6 +32,8 @@ S3/OBS Connect is a Chrome extension for working with S3-compatible object stora
 The extension lets users save bucket connections, open OBS/S3 paths, browse folders and objects, search within the current prefix, upload files by picker or drag and drop, create folders, preview common text, image, audio, and video files, download objects, delete selected objects, reorder connection tabs, view local activity logs, and switch between light and dark themes.
 
 The app is designed for S3-compatible endpoints such as OBS services. Users provide their own access key, secret key, bucket path, and server address. Requests are sent from the browser only to the user-configured storage endpoint using the bundled AWS SDK client. No project-owned backend, account system, advertising, analytics, payment processing, AI/LLM API, or remote code loading is used.
+
+The extension uses virtual-hosted-style S3 access for bucket requests.
 ```
 
 ## Single Purpose Statement

@@ -4,6 +4,7 @@ S3/OBS Connect is a Chrome extension for managing user-configured S3-compatible 
 <img width="1277" height="794" alt="image" src="https://github.com/user-attachments/assets/b3f11ab7-3e63-4dc2-ae58-91c507afc441" />
 
 - Connect to an S3/OBS-compatible bucket using AK, SK, Access Path, and Server Address.
+- Use virtual-hosted-style S3 access for bucket requests.
 - Save connections in local Chrome extension storage.
 - Open the app in a separate Chrome tab.
 - Reuse an already open app tab when clicking the extension icon.
